@@ -1,0 +1,88 @@
+header {
+    height: 14vh;
+    border-bottom: black 5px solid;
+    margin: 1px;
+}
+
+#toggleButton {
+    height: 45%;
+    width: 15%;
+}
+.main {
+    height: 85vh;
+    display: flex;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.left-content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: black 5px solid;
+    margin: 2px;
+
+}
+
+img {
+    height: 75%;
+}
+
+.right-content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: black 5px solid;
+    margin: 2px
+}
+
+
+/* Styles for a form */
+.form {
+    margin-top: 200px;
+    flex: 1; 
+    width: 100%; 
+    max-width: 50%; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+    margin-right: 20px; 
+}
+
+/* Styles for h2 elements inside the form */
+.form h2 {
+    margin-bottom: 20px; 
+    font-size: 26px; 
+    text-align: center; 
+    font-weight: bolder;
+    color:#000; 
+}
+
+/* Styles for input fields*/
+.form input[type="text"],
+.form input[type="text"],
+.form textarea,
+.form button {
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 8px; 
+    justify-content: center; 
+}
+
+/* Styles for the button inside the form */
+.form button {
+    background-color: #000; 
+    color: #fff;
+    font-weight: bolder; 
+    font-size: 22px; 
+    border: none; 
+    cursor: pointer; 
+}

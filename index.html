@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Blog</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/form.css">
+</head>   
+<body>
+    <header>
+        <button id="toggleButton">🔆</button>
+    </header>
+    <section class="main">
+    <div class ="left-content">
+        <img src="./images/my-first-blog-circle.png">
+    </div>
+     <div class="form">
+            <h2>What's on your mind?</h2>
+          <form action="#" method="POST">
+          <input id="username" type="text" placeholder="Username" required/>
+         <input id="title" type="text" placeholder="Title" required/>
+         <textarea id="content" rows="8"  placeholder="Content" required></textarea>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+         </div>
+    </div>
+    </section>
+    <script src="./js/form.js"></script>
+    <script src="./js/logic.js"></script>
+</body>
+</html>
