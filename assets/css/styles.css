@@ -1,0 +1,60 @@
+/* Resetting default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; /* Setting a fallback font */
+    background-color: #f0f0f0; /* Setting a light background color */
+}
+.dark{
+    background-color: black; /* Setting background color for dark mode */
+    color: white; /* Setting text color for dark mode */
+}
+.dark #line-div{
+    border-color: white;
+}
+.dark #posts section{
+    border-color: white;
+}
+.dark #posts section h2{
+    border-color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+header nav {
+    display: flex; /* Ensuring navigation links are displayed in a row */
+}
+
+
+.footer{
+    position: fixed; 
+    bottom: 0; 
+    text-align: left; 
+    padding: 5px;
+    border: 2px solid black ; 
+    height: 120px; 
+    background-color: white; 
+    width: 100%; 
+}
+.footer a{
+    text-align: left;
+    margin-top: 0px; 
+    display: block; 
+    text-decoration: none; 
+    color: black; 
+}

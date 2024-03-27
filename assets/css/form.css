@@ -1,7 +1,6 @@
 header {
-    height: 14vh;
+    height: 10vh;
     border-bottom: black 5px solid;
-    margin: 1px;
 }
 
 #toggleButton {

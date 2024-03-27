@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/blog.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>My-Blog</title>
 </head>
 <body>
     <header>
         <h2>My Blog</h2>
-        <button id="back">back</button>
+        <nav>
+            <button id="back" class="back-button" type="submit">Back</button>
+            <label class="switch"></label>
+        </nav>
     </header>
-    
-    <script src="./js/logic.js"></script>
-    <script src="./js/blog.js"></script>
+<main>
+    <div id="line-div" class="lines"></div>
+    <div id="posts"></div>
+</main>
+<footer class="footer">
+    <h2>Made by Tati</h2>
+    <a href="#">Porfolio:</a>
+    <a href="#">Blog:</a>
+    <a href="#">Email:</a>
+</footer>
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/blog.js"></script>
 </body>
 </html>
