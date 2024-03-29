@@ -37,8 +37,8 @@ THEN I am presented with a link to the developer's portfolio.
 ```
 
 ## Usage
-Link for repo:
-Link for My-blog:
+Link for repo: https://github.com/thernand09/My-Blog-Challange4
+Link for My-blog: gihttps://thernand09.github.io/My-Blog-Challange4/
 
 ## Tryouts
 
