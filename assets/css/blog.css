@@ -1,6 +1,35 @@
+/* Styles for a div with class "two-lines" */
 .lines {
-    border-top: 2px solid #000; 
-    border-bottom: 2px solid #000; 
-    padding: 2px 0; 
-    margin-bottom: 20px; 
+    border: 2px solid #000; /* Setting black color borders with 2px thickness */
+    padding: 2px 0; /* Adding 2 pixels of vertical padding and no horizontal padding */
+    margin-bottom: 20px; /* Adding a bottom margin of 20 pixels */
+}
+
+/* Styles related to the blog post */
+.post-container {
+    border: 2px solid black; 
+    height: 100%;
+    width: 98%; 
+    margin: 10px auto 0; 
+    border-radius: 3px;
+    padding: 8px;
+}
+.post-container h2 {
+    border-bottom: 1px solid black;
+    width: 98%; 
+    margin: auto; 
+    padding-bottom: 3px;
+}
+.post-container p, .post-container h6 {
+    width: 98%; 
+    margin: auto; 
+    margin-top: 4px; 
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        background: linear-gradient(to right, #14ffe9, #ffeb3b, #ff00e0); /* Adding a linear gradient background for the header */
+    }
 }

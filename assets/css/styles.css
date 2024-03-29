@@ -10,19 +10,7 @@ body {
     font-family: Arial, sans-serif; /* Setting a fallback font */
     background-color: #f0f0f0; /* Setting a light background color */
 }
-.dark{
-    background-color: black; /* Setting background color for dark mode */
-    color: white; /* Setting text color for dark mode */
-}
-.dark #line-div{
-    border-color: white;
-}
-.dark #posts section{
-    border-color: white;
-}
-.dark #posts section h2{
-    border-color: white;
-}
+
 
 header {
     position: sticky;
@@ -37,8 +25,57 @@ header {
 
 
 header nav {
-    display: flex; /* Ensuring navigation links are displayed in a row */
+    display: flex; 
 }
+
+/* Hide the default checkbox */
+.switch input[type="checkbox"] {
+    display: none;
+}
+
+/* Style for the slider */
+.switch .slider {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for the slider knob */
+.switch .slider:before {
+    position: absolute;
+    content: "";
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease;
+}
+
+/* Checked state - move the slider to the right */
+.switch input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(30px);
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .switch .slider {
+    background-color: #666;
+}
+
+.dark-mode .switch .slider:before {
+    background-color: #070707;
+}
+
 
 
 .footer{
@@ -58,3 +95,4 @@ header nav {
     text-decoration: none; 
     color: black; 
 }
+
